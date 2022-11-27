@@ -14,5 +14,7 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    "vue/multi-word-component-names": 0,
+    //ngăn chặn việc tên components chỉ có 1 từ (nhiều nghĩa)
   },
 };
